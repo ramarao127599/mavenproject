@@ -29,12 +29,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://192.168.80.212:8081/repository/thanish_release/</url>
+            <url>http://nexusserver.com:8081/repository/thanish_release/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-           <url>http://192.168.80.212:8081/repository/thanish_snap/</url>
+           <url>http://nexusserver.com:8081/repository/thanish_snap/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
