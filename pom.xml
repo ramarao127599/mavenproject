@@ -29,12 +29,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://192.168.217.141:8081/repository/ramarao_release/</url>
+            <url>http://localhost:8080/repository/ramarao_release/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-           <url>http://192.168.217.141:8081/repository/ramarao_snap/</url>
+           <url>http://localhost:8080/repository/ramarao_snap/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
